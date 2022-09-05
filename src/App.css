@@ -1,0 +1,43 @@
+#root {
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+ 
+ 
+}
+
+.img{
+ max-width: 100%;
+}
+
+.App{
+  width: 600px;
+  height: 700px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 20px rgb(0 0 0 / 50%);
+  background-color: rgb(124, 163, 210);
+
+
+  
+
+}
+
+.wheater-decoration{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  height: 500px;
+  align-items: center;
+  font-weight: bold;
+}
+
+.wheater-decoration img{
+  width: 200px;
+  height: 200px;
+}
+
+.btn-wheather{
+  background-color: rgba(139, 219, 211, 0.705);
+  border-style: double;
+}
